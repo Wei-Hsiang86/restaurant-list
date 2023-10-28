@@ -2,6 +2,9 @@ const express = require('express')
 const app = express()
 const port = 3000
 
+// 使用 static files
+app.use(express.static('public'));
+
 // 設定路由
 app.get('/', (req, res) => {
   res.redirect('/restaurants')
