@@ -47,4 +47,4 @@
 
 ## 作品截圖
 
-![Index page about Restaurant List](./public/image/restaurants list.jpg)
+![Restaurant List](https://github.com/Wei-Hsiang86/restaurant-list/tree/main/public/image/restaurants list.jpg)
