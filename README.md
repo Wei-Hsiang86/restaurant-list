@@ -44,7 +44,3 @@
 - Express-Handlebars 7.1.2
 - Bootstrap 5.1.3
 - Font-awesome 6.4.2
-
-## 作品截圖
-
-![Restaurant List](https://github.com/Wei-Hsiang86/restaurant-list/tree/main/public/image/restaurants-list.jpg)
