@@ -21,9 +21,10 @@ app.get('/restaurants', (req, res) => {
 
 // 設定動態路由
 app.get("/restaurants/:id", (req, res) => {
-  const id = req.params.id;
-  res.send(`read restaurant: ${id}`);
-});
+  const id = req.params.id
+  const restaurant = restaurants.find((rr) => rr.id.toString() === id)
+  res.render('show', { restaurant })
+})
 
 // 設定執行伺服器時， CLI 要執行的動作
 app.listen(port, () => {
